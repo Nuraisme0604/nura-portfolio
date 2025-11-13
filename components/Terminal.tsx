@@ -36,40 +36,40 @@ export default function Terminal() {
         </div>
         <div className="text-yellow-300">{`{`}</div>
         <div className="pl-4 text-blue-400">
-          "name": <span className="text-white">"{terminalContent.name}"</span>,
+          &quot;name&quot;: <span className="text-white">&quot;{terminalContent.name}&quot;</span>,
         </div>
         <div className="pl-4 text-blue-400">
-          "username": <span className="text-white">"{terminalContent.username}"</span>,
+          &quot;username&quot;: <span className="text-white">&quot;{terminalContent.username}&quot;</span>,
         </div>
         <div className="pl-4 text-blue-400">
-          "role": <span className="text-white">"{terminalContent.role}"</span>,
+          &quot;role&quot;: <span className="text-white">&quot;{terminalContent.role}&quot;</span>,
         </div>
         <div className="pl-4 text-blue-400">
-          "location": <span className="text-white">"{terminalContent.location}"</span>,
+          &quot;location&quot;: <span className="text-white">&quot;{terminalContent.location}&quot;</span>,
         </div>
         <div className="pl-4 text-blue-400">
-          "education": <span className="text-white">"{terminalContent.education}"</span>,
+          &quot;education&quot;: <span className="text-white">&quot;{terminalContent.education}&quot;</span>,
         </div>
         <div className="pl-4 text-blue-400">
-          "skills": <span className="text-yellow-300">[</span>
+          &quot;skills&quot;: <span className="text-yellow-300">[</span>
         </div>
         {terminalContent.skills.map((skill, idx) => (
           <div key={idx} className="pl-8 text-white">
-            "{skill}"{idx < terminalContent.skills.length - 1 ? "," : ""}
+            &quot;{skill}&quot;{idx < terminalContent.skills.length - 1 ? "," : ""}
           </div>
         ))}
         <div className="pl-4 text-yellow-300">],</div>
         <div className="pl-4 text-blue-400">
-          "interests": <span className="text-yellow-300">[</span>
+          &quot;interests&quot;: <span className="text-yellow-300">[</span>
         </div>
         {terminalContent.interests.map((interest, idx) => (
           <div key={idx} className="pl-8 text-white">
-            "{interest}"{idx < terminalContent.interests.length - 1 ? "," : ""}
+            &quot;{interest}&quot;{idx < terminalContent.interests.length - 1 ? "," : ""}
           </div>
         ))}
         <div className="pl-4 text-yellow-300">],</div>
         <div className="pl-4 text-blue-400">
-          "status": <span className="text-white">"{terminalContent.status}"</span>
+          &quot;status&quot;: <span className="text-white">&quot;{terminalContent.status}&quot;</span>
         </div>
         <div className="text-yellow-300">{`}`}</div>
         <div className="mt-3 text-primary flex items-center">
