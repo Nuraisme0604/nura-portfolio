@@ -140,18 +140,18 @@ export const EXPERIENCES: Experience[] = [
 
 export const CERTIFICATIONS: Certification[] = [
   {
-    name: "Google Cybersecurity Certificate",
-    issuer: "Google",
+    name: "Google Cybersecurity Professional Certificate",
+    issuer: "Google - Coursera",
     date: "2025"
   },
   {
-    name: "Using Python to Interact with the Operating System",
-    issuer: "Google",
+    name: "Google Project Management Professional Certificate",
+    issuer: "Google - Coursera",
     date: "2025"
   },
   {
-    name: "Automate Cybersecurity Tasks with Python",
-    issuer: "Google",
+    name: "Google IT Automation with Python Professional Certificate",
+    issuer: "Google - Coursera",
     date: "2025"
   }
 ];
